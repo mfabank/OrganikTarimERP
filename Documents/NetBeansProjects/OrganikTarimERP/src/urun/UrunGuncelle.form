@@ -133,7 +133,7 @@
           <Color blue="33" green="99" red="0" type="rgb"/>
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri G&#xfc;ncelle"/>
+        <Property name="text" type="java.lang.String" value="&#xdc;r&#xfc;n G&#xfc;ncelle"/>
       </Properties>
     </Component>
   </SubComponents>
