@@ -12,7 +12,7 @@
             <Menu class="javax.swing.JMenu" name="jMenu1">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\asus\Documents\NetBeansProjects\OrganikTarimERP\src\organiktarimerp\img\add.png"/>
+                  <Image iconType="3" name="/organiktarimerp/img/add.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Yeni Kay&#x131;t"/>
               </Properties>
@@ -23,7 +23,7 @@
             <Menu class="javax.swing.JMenu" name="jMenu2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\asus\Documents\NetBeansProjects\OrganikTarimERP\src\organiktarimerp\img\update.png"/>
+                  <Image iconType="3" name="/organiktarimerp/img/update.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Kay&#x131;t G&#xfc;ncelle"/>
               </Properties>
@@ -34,7 +34,7 @@
             <Menu class="javax.swing.JMenu" name="jMenu4">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\asus\Documents\NetBeansProjects\OrganikTarimERP\src\organiktarimerp\img\delete.png"/>
+                  <Image iconType="3" name="/organiktarimerp/img/delete.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Kay&#x131;t Sil"/>
               </Properties>
@@ -45,7 +45,7 @@
             <Menu class="javax.swing.JMenu" name="jMenu11">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\asus\Documents\NetBeansProjects\OrganikTarimERP\src\organiktarimerp\img\info.png"/>
+                  <Image iconType="3" name="/organiktarimerp/img/info.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Kay&#x131;t Listele"/>
               </Properties>
@@ -63,7 +63,7 @@
             <Menu class="javax.swing.JMenu" name="jMenu6">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\asus\Documents\NetBeansProjects\OrganikTarimERP\src\organiktarimerp\img\urun1.png"/>
+                  <Image iconType="3" name="/organiktarimerp/img/urun1.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#xdc;r&#xfc;n Ekle"/>
               </Properties>
@@ -74,7 +74,7 @@
             <Menu class="javax.swing.JMenu" name="jMenu7">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\asus\Documents\NetBeansProjects\OrganikTarimERP\src\organiktarimerp\img\urun2.png"/>
+                  <Image iconType="3" name="/organiktarimerp/img/urun2.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#xdc;r&#xfc;n G&#xfc;ncelle"/>
               </Properties>
@@ -85,7 +85,7 @@
             <Menu class="javax.swing.JMenu" name="jMenu8">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\asus\Documents\NetBeansProjects\OrganikTarimERP\src\organiktarimerp\img\urun3.png"/>
+                  <Image iconType="3" name="/organiktarimerp/img/urun3.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#xdc;r&#xfc;n Sil"/>
               </Properties>
@@ -96,7 +96,7 @@
             <Menu class="javax.swing.JMenu" name="jMenu12">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\asus\Documents\NetBeansProjects\OrganikTarimERP\src\organiktarimerp\img\info.png"/>
+                  <Image iconType="3" name="/organiktarimerp/img/info.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#xdc;r&#xfc;n Listele"/>
               </Properties>
@@ -113,6 +113,9 @@
           <SubComponents>
             <Menu class="javax.swing.JMenu" name="jMenu10">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/organiktarimerp/img/fatura.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Yeni Fatura"/>
               </Properties>
               <Events>
@@ -157,7 +160,7 @@
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\asus\Documents\NetBeansProjects\OrganikTarimERP\src\organiktarimerp\img\organik.png"/>
+          <Image iconType="3" name="/organiktarimerp/img/organik.png"/>
         </Property>
       </Properties>
       <Constraints>

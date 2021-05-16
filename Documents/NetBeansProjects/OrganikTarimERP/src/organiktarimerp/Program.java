@@ -53,12 +53,12 @@ public class Program extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\asus\\Documents\\NetBeansProjects\\OrganikTarimERP\\src\\organiktarimerp\\img\\organik.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/organiktarimerp/img/organik.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 500, 400));
 
         jMenu3.setText("Müşteri");
 
-        jMenu1.setIcon(new javax.swing.ImageIcon("C:\\Users\\asus\\Documents\\NetBeansProjects\\OrganikTarimERP\\src\\organiktarimerp\\img\\add.png")); // NOI18N
+        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/organiktarimerp/img/add.png"))); // NOI18N
         jMenu1.setText("Yeni Kayıt");
         jMenu1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -67,7 +67,7 @@ public class Program extends javax.swing.JFrame {
         });
         jMenu3.add(jMenu1);
 
-        jMenu2.setIcon(new javax.swing.ImageIcon("C:\\Users\\asus\\Documents\\NetBeansProjects\\OrganikTarimERP\\src\\organiktarimerp\\img\\update.png")); // NOI18N
+        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/organiktarimerp/img/update.png"))); // NOI18N
         jMenu2.setText("Kayıt Güncelle");
         jMenu2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -76,7 +76,7 @@ public class Program extends javax.swing.JFrame {
         });
         jMenu3.add(jMenu2);
 
-        jMenu4.setIcon(new javax.swing.ImageIcon("C:\\Users\\asus\\Documents\\NetBeansProjects\\OrganikTarimERP\\src\\organiktarimerp\\img\\delete.png")); // NOI18N
+        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/organiktarimerp/img/delete.png"))); // NOI18N
         jMenu4.setText("Kayıt Sil");
         jMenu4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -85,7 +85,7 @@ public class Program extends javax.swing.JFrame {
         });
         jMenu3.add(jMenu4);
 
-        jMenu11.setIcon(new javax.swing.ImageIcon("C:\\Users\\asus\\Documents\\NetBeansProjects\\OrganikTarimERP\\src\\organiktarimerp\\img\\info.png")); // NOI18N
+        jMenu11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/organiktarimerp/img/info.png"))); // NOI18N
         jMenu11.setText("Kayıt Listele");
         jMenu11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -98,7 +98,7 @@ public class Program extends javax.swing.JFrame {
 
         jMenu5.setText("Ürünler");
 
-        jMenu6.setIcon(new javax.swing.ImageIcon("C:\\Users\\asus\\Documents\\NetBeansProjects\\OrganikTarimERP\\src\\organiktarimerp\\img\\urun1.png")); // NOI18N
+        jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/organiktarimerp/img/urun1.png"))); // NOI18N
         jMenu6.setText("Ürün Ekle");
         jMenu6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -107,7 +107,7 @@ public class Program extends javax.swing.JFrame {
         });
         jMenu5.add(jMenu6);
 
-        jMenu7.setIcon(new javax.swing.ImageIcon("C:\\Users\\asus\\Documents\\NetBeansProjects\\OrganikTarimERP\\src\\organiktarimerp\\img\\urun2.png")); // NOI18N
+        jMenu7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/organiktarimerp/img/urun2.png"))); // NOI18N
         jMenu7.setText("Ürün Güncelle");
         jMenu7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -116,7 +116,7 @@ public class Program extends javax.swing.JFrame {
         });
         jMenu5.add(jMenu7);
 
-        jMenu8.setIcon(new javax.swing.ImageIcon("C:\\Users\\asus\\Documents\\NetBeansProjects\\OrganikTarimERP\\src\\organiktarimerp\\img\\urun3.png")); // NOI18N
+        jMenu8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/organiktarimerp/img/urun3.png"))); // NOI18N
         jMenu8.setText("Ürün Sil");
         jMenu8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -125,7 +125,7 @@ public class Program extends javax.swing.JFrame {
         });
         jMenu5.add(jMenu8);
 
-        jMenu12.setIcon(new javax.swing.ImageIcon("C:\\Users\\asus\\Documents\\NetBeansProjects\\OrganikTarimERP\\src\\organiktarimerp\\img\\info.png")); // NOI18N
+        jMenu12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/organiktarimerp/img/info.png"))); // NOI18N
         jMenu12.setText("Ürün Listele");
         jMenu12.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -138,6 +138,7 @@ public class Program extends javax.swing.JFrame {
 
         jMenu9.setText("Faturalar");
 
+        jMenu10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/organiktarimerp/img/fatura.png"))); // NOI18N
         jMenu10.setText("Yeni Fatura");
         jMenu10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
